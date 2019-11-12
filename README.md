@@ -2,7 +2,8 @@
 A set of general purpose mathmetical tools
 The tools are available both in interactive and direct from environment format. All codes are well commented and easy to understand for beginers.Codes are written in Python 3, C and FORTRAN.
 R is coming soon.
-The one with *-ia* are interactive.
+
+**Note:The one with *-ia* are interactive.**
 
 ## Quadratic Solver 
 The code needs the coefficients of the equation as input.
