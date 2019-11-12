@@ -1,11 +1,18 @@
 #include<stdio.h>
 #include<math.h> /*For trigonometric functions*/
+/* #include<conio.h>   
+  #include<windows.h>
+  These headers are windows specific.
+  If you compilpe on windows, then remove the comment symbol from the above headers and comment and # of lines marked with '#'. May warn for implicitly calling "system" */
 
 int main()
 {
 	int func;
     double x, y;
-
+    	
+	
+	/* #system("color 02");
+    #SetConsoleTitle("Wide Range Trigonometry calculation- ); */
     printf("Wide Range Trigonometry calculation\n Choose Function From list:\n Trigonometry Functions: \n  1.tan\n  2.sin\n  3.cos\n Hyperbolic Trigonometry Functions: \n  4.tanh\n  5.sinh\n  6.cosh\n ");
     printf("Inverse Trigonometry Functions: \n  7.tan^-1\n  8.sin^-1\n  9.cos^-1\n Inverse Hyperbolic Functions: \n  a.tanh^-1\n  b.sinh^-1\n  c.cosh^-1\nPress e to exit\nType desired function number\n ");
     scanf("%x",&func); /*%x makes the input to be read as base-16*/
@@ -101,6 +108,8 @@ int main()
     printf("Press any key to returm to main menu");
       getchar();
       getchar();
+	/* #system("pause");
+	#system("cls"); use these instead of getchar()*/
     return main();
     }
     else if(func == 14) /*Home brewed quit function*/
@@ -114,6 +123,8 @@ int main()
         printf("Press any key to returm to main menu");
       getchar();
       getchar();
+	  /* #system("pause");
+	   #system("cls");*/
     return main();
     }
 }
