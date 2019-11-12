@@ -9,3 +9,5 @@ The code needs the coefficients of the equation as input.
 ## Table maker
 Able to make table of any polynomial function of single variable. 
 Requires the coefficients of the variable in desending order, starting point, ending point and step deviation respectively, as input.
+## Wide range trigonometric calculator
+A legacy code. It was my first self-made algorithm. Runs well. **Only interactive format available **
