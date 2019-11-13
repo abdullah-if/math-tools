@@ -9,11 +9,11 @@ For getting the tools, use this command line
 
 **Note:The one with *-ia* are interactive.**
 
-For directly accessing from CLI with ease
-everytime. Run these once:
+For directly accessing from CLI with ease,
+Run these once:
 ```
 #crontab -e
-@reboot  /home/user/test.sh
+@reboot  ~/math-tools/sources/alias.sh
 ```
 
 
