@@ -8,7 +8,8 @@ For getting the tools, use this command line
 `git clone https://www.github.com/Nemo-Nowane/math-tools/sources`
 
 **Note:The one with *-ia* are interactive.**
-For directly accessing from CLI with ease, everytime run these
+For directly accessing from CLI with ease
+everytime. Run these once:
 ```
 #crontab -e
 @reboot  /home/user/test.sh
