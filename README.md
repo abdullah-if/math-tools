@@ -5,7 +5,7 @@ R is coming soon.
 
 For getting the tools, use this command line
 
-`git clone https://www.github.com/Nemo-Nowane/math-tools/sources`
+`git clone https://www.github.com/Nemo-Nowane/math-tools`
 
 **Note:The one with *-ia* are interactive.**
 
