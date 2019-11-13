@@ -26,5 +26,6 @@ Requires the coefficients of the variable in desending order, starting point, en
 ## Wide range trigonometric calculator
 A legacy code. It was my first self-made algorithm. Runs well. **Only interactive format available**
 Compiling it in CLI, use following command :
-'clang  WRTC.c -lm -o WRTC'
-(gcc if you have that instesd of clang)
+`gcc  WRTC.c -lm -o WRTC`
+
+(clang if you have that instesd of gcc)
