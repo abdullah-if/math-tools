@@ -1,6 +1,6 @@
 from fractions import Fraction #To implement algorithm without messing floats
 from decimal import Decimal
-import sys
+import sys#For CLI input
 def factor(arg1):#Factor finding function
    l = [1]
    a = 2
@@ -38,10 +38,10 @@ c = inlist[t]
 n = 2
 alist =[*factor(a), *list(map(lambda x: x*(-1), (factor(a))))]#Factors of leading coefficient 
 clist =[*factor(c), *list(map(lambda x: x*(-1), (factor(c))))]#Factors of constant or smallest coefficient 
-for w in range (len(clist)): #Runningbthe algorithm, the algorithm is edscribed ni README.md
+for w in range (len(clist)): #Running the algorithm, the algorithm is described in README.md
    for q in range (len(alist)):
        z =  Fraction(clist[w], alist[q])
        if mark(float(z), inlist ) ==0:
          zlist.append(z)
          
-print(set(map(float,(zlist))))#Getting the result as set, each domain once
+print(list(set(map(float,(zlist)))))#Getting the result as set, each domain once.
