@@ -23,7 +23,7 @@ def plot (o, d, t, dlist):#Table maker function, for comments goto table-maker.p
          y = 0 
          r = float(Decimal(r) + Decimal(t))
    return xlist, fxlist
-def mark(lm, qlist):#Table maker function modified for finding point
+def mark(lm, qlist):#Table maker function modified for single value
    kj = 0
    for re in range(len(qlist)):
       kj = qlist[re]*lm**(len(qlist) -1 -re) + kj
