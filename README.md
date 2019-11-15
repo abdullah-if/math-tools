@@ -27,7 +27,7 @@ Requires the coefficients of the variable in desending order, starting point, en
 ## Equation solver
 Takes coefficients as input. Solves polynomial of single variable. Uses following algorithm:
 According to factor theorem,
-for P(x)= aₙxⁿ + aₙ₋₁xⁿ⁻¹+......... +a₀,
+for P(x)= aₙxⁿ + aₙ₋₁xⁿ⁻¹+......... +a₀
 
 All solutions of P(x) can expressed as p/q when p is a factor of a₀  and q is a factor of aₙ while aₙ and a₀ are integers. Here p and q may be positive or negative.
 Since, qx-p is factor of the polynomial.
