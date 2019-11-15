@@ -26,7 +26,10 @@ Requires the coefficients of the variable in desending order, starting point, en
 
 ## Equation solver
 Solves polynomial of single variable. Uses following algorithm:
-According to factor theorem, for P(x)= aₙxⁿ + ₙ
+According to factor theorem,
+for P(x)= aₙxⁿ + aₙ₋₁xⁿ⁻¹+......... +a₀,
+all solutions of P(x) can expressed as p/q when p is a factor of a₀  and q is a factor of aₙ while aₙ and a₀ are integers.
+
 ## Wide range trigonometric calculator
 A legacy code. It was my first self-made algorithm. Runs well. **Only interactive format available.**
 Compiling it in CLI, use following command :
