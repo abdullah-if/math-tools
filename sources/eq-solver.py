@@ -1,5 +1,6 @@
 from fractions import Fraction #To implement algorithm without messing floats
 from decimal import Decimal
+import math as m
 import sys#For CLI input
 def factor(arg1):#Factor finding function
    l = [1]
@@ -34,7 +35,11 @@ t =-1
 while inlist[t] == 0:#Constant or coefficient of smallest term
     t = t-1
     zlist.append(0)
-c = inlist[t]  
+c = inlist[t]
+while m.ceil(c) != c  or m.ceil(a) != a:
+   c =c*10
+   a =a*10
+   inlist=list(map(lambda num: num*10, inlist))
 n = 2
 alist =[*factor(a), *list(map(lambda x: x*(-1), (factor(a))))]#Factors of leading coefficient 
 clist =[*factor(c), *list(map(lambda x: x*(-1), (factor(c))))]#Factors of constant or smallest coefficient 
