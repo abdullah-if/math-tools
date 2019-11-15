@@ -31,7 +31,9 @@ if P(x)= aₙxⁿ + aₙ₋₁xⁿ⁻¹+......... +a₀
 
 then solutions of P(x) can expressed as p/q when p is a factor of a₀  and q is a factor of aₙ while aₙ and a₀ are integers. Here p and q may be positive or negative.
 Since, qx-p is factor of the polynomial.
+
 *Note: The programme turns non-integer coefficients in integer in runtime.*
+
 *P.S.:If the a₀ is missing then 0 is a solution for the function. This is also considered in the programme.*
 
 ## Wide range trigonometric calculator
