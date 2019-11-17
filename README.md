@@ -44,4 +44,4 @@ A legacy code. It was my first self-made algorithm. Runs well. **Only interactiv
 Compiling it in CLI, use following command :
 `gcc  WRTC.c -lm -o WRTC`
 
-(clang if you have that instesd of gcc)
+(Write clang, if you have that instesd of gcc)
