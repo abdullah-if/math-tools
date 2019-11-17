@@ -33,7 +33,7 @@ then solutions of P(x) can expressed as p/q when p is a factor of a₀  and q is
 Since, qx-p is factor of the polynomial. For more decent explanation visit [Wikipedia] 
 (https://en.m.wikipedia.org/wiki/Factorization_of_polynomials#Classical_methods#Obteining_linear_factor)
  
-This site was built using [GitHub Pages].
+This site was built using [GitHub Pages]    (https://en.m.wikipedia.org/wiki/Factorization_of_polynomials#Classical_methods#Obteining_linear_factor)
 
 *Note: The programme turns non-integer coefficients in integer in runtime.*
 
