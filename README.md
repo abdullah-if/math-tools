@@ -30,7 +30,7 @@ According to factor theorem,
 if P(x)= aₙxⁿ + aₙ₋₁xⁿ⁻¹+......... +a₀
 
 then solutions of P(x) can expressed as p/q when p is a factor of a₀  and q is a factor of aₙ while aₙ and a₀ are integers. Here p and q may be positive or negative.
-Since, qx-p is factor of the polynomial. For more decent explanation visit [Wikipedia] (https://en.m.wikipedia.org/wiki/Factorization_of_polynomials#Classical_methods#Obteining_linear_factor)
+Since, qx-p is factor of the polynomial. For more decent explanation visit [Wikipedia] (https://en.m.wikipedia.org/wiki/Factorization_of_polynomials#Classical_methods#Obteining_linear_factor) 
 
 *Note: The programme turns non-integer coefficients in integer in runtime.*
 
