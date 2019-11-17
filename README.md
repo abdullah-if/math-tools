@@ -29,8 +29,8 @@ Takes coefficients as input. Solves polynomial of single variable. Uses followin
 According to factor theorem,
 if P(x)= aₙxⁿ + aₙ₋₁xⁿ⁻¹+......... +a₀
 
-then solutions of P(x) can expressed as p/q when p is a factor of a₀  and q is a factor of aₙ while aₙ and a₀ are integers. Here p and q may be positive or negative.
-Since, qx-p is factor of the polynomial. For more decent explanation visit [Wikipedia](https://www.wikipedia.org/wiki/Factorization_of_polynomials#Classical_methods).
+then all the real solutions of P(x) can expressed as p/q when p is a factor of a₀  and q is a factor of aₙ while aₙ and a₀ are integers. Here p and q may be positive or negative.
+Since, qx-p is factor of the polynomial, (-p/q) is a solution for the polynomial. For more decent explanation visit [Wikipedia](https://www.wikipedia.org/wiki/Factorization_of_polynomials#Classical_methods).
 
  
 
