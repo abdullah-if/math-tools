@@ -5,7 +5,7 @@ import sys#For CLI input
 def factor(arg1):#Factor finding function
    l = [1]
    a = 2
-   while a <= (abs(arg1))**.5:
+   while a <= abs(arg1):
       if arg1%a == 0 :
          l.append(a)
       a = a + 1
