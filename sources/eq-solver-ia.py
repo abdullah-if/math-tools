@@ -1,9 +1,9 @@
 from fractions import Fraction #To implement algorithm without messing floats
-from decimal import Decimaal
+from decimal import Decimal
 def factor(arg1):#Factor finding function
    l = [1]
    a = 2
-   while a <= (abs(arg1))**.5:
+   while a <= abs(arg1):
       if arg1%a == 0 :
          l.append(a)
       a = a + 1
@@ -26,7 +26,7 @@ def mark(lm, qlist):#Table maker function modified for finding point
    for re in range(len(qlist)):
       kj = qlist[re]*lm**(len(qlist) -1 -re) + kj
    return kj
-inlist = list(map(float,input("Values of coefficients: ").split())#List of coefficients 
+inlist = list(map(float,input("Values of coefficients: ").split()))#List of coefficients 
 zlist =[]
 a = inlist[0]#Leading coefficient 
 t =-1
