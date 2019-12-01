@@ -49,4 +49,4 @@ for w in range (len(clist)): #Running the algorithm, the algorithm is described 
        if mark(float(z), inlist ) ==0:
          zlist.append(z)
          
-print(list(set(map(float, zlist))))#Getting the result as set, each domain once.
+print((','.join(list(set(map(str, zlist))))).replace("'"," ")#Getting the result as set, each domain once.
