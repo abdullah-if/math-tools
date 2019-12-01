@@ -47,4 +47,7 @@ for w in range (len(clist)): #Running the algorithm, the algorithm is described 
        if mark(float(z), inlist ) ==0:
          zlist.append(z)
          
-print(list(set(map(float,zlist))))#Getting the result as set, each domain once.
+print(' , '.join(list(set(map(str, zlist)))))
+""" That's a big thing in one line. I took the answer list, converted them to string,
+and converted the strings in a single line string. Thats the answer. 
+Note: The answer is shown in fraction. Pretty, right?"""
